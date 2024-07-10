@@ -46,13 +46,10 @@ int main(void)
 
     while ((term1 < max) && (term2 < max))
     {
-        if ((term1 % 2 == 0) && (term2 % 2 == 0))
-        {
-            nextNum = term1 + term2;
-            term1 = term2;
-            term2 = nextNum;
-            fibNum = nextNum;
-        }
+        nextNum = term1 + term2;
+        term1 = term2;
+        term2 = nextNum;
+        fibNum = nextNum;
     }
     printf("%d\n", fibNum);
     return 0;
