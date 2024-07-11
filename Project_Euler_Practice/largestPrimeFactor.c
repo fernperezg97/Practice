@@ -22,7 +22,7 @@ steps:
 
 int main(void)
 {
-    int num = 460;
+    long num = 600851475143;
     int largestPrimeFactor = 0;
     int i = 2;
 
@@ -33,10 +33,10 @@ int main(void)
             if (i > largestPrimeFactor)
             {
                 largestPrimeFactor = i;
-                printf("** current largest prime factor is %d\n", largestPrimeFactor);
+                // printf("** current largest prime factor is %d\n", largestPrimeFactor);
             }
             num = num / i;
-            printf("current number is: %d\n", num);
+            // printf("current number is: %d\n", num);
             i = 1;
         }
         i++;
