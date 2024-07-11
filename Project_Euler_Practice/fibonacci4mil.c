@@ -22,12 +22,12 @@ steps:
 
 even:
 
-0 + 2 = 2
-2 + 2 = 4
-4 + 2 = 6
-6 + 4 = 10
-10 + 6 = 16
-16 + 10 = 26
+1 + 2 = 3
+2 + 3 = 5
+3 + 5 = 8
+5 + 8 = 13
+8 + 13 = 21
+13 + 21 = 34
 
 */
 
@@ -39,19 +39,23 @@ even:
 int main(void)
 {
     int max = 4000000;
-    int term1 = 0;
+    int term1 = 1;
     int term2 = 2;
     int nextNum = 0;
-    int fibNum = 0;
+    int finalEvenSum = 2;
 
-    while ((term1 < max) && (term2 < max))
+    while (term2 < max)
     {
         nextNum = term1 + term2;
         term1 = term2;
         term2 = nextNum;
-        fibNum = nextNum;
+
+        if (nextNum % 2 == 0)
+        {
+            finalEvenSum += nextNum;
+        }
     }
-    printf("%d\n", fibNum);
+    printf("%d\n", finalEvenSum);
     return 0;
 }
 
