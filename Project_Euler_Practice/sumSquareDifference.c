@@ -22,13 +22,14 @@ NOTES:
 
 */
 
-int sumOfSquares(num)
+int main(void)
 {
-    int numSquared = 0, sumSquaredNums = 0;
+    int numSquared = 0, sumSquaredNums = 0, addedNums = 0, squareOfSum = 0;
     for (int i = 1; i <= 100; i++)
     {
         numSquared = i * i;
         sumSquaredNums += numSquared;
+        addedNums += i;
     }
-    return sumSquaredNums;
+    printf("Sum of squared nums: %d\nSquare of summed nums: %d\n", sumSquaredNums, addedNums * addedNums);
 }
