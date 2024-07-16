@@ -31,5 +31,5 @@ int main(void)
         sumSquaredNums += numSquared;
         addedNums += i;
     }
-    printf("Sum of squared nums: %d\nSquare of summed nums: %d\n", sumSquaredNums, addedNums * addedNums);
+    printf("Sum of squared nums: %d\nSquare of summed nums: %d\nDifference: %d\n", sumSquaredNums, addedNums * addedNums, (addedNums * addedNums) - sumSquaredNums);
 }
