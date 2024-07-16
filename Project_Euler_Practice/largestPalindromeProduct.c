@@ -37,7 +37,7 @@ int reverseNum(int num)
 
 int numDigits(int n)
 {
-    int n, count = 0;
+    int count = 0;
     
     // iterate at least once, then until n becomes 0
     // remove last digit from n in each iteration
@@ -53,9 +53,17 @@ int numDigits(int n)
 
 int main()
 {
-    int num1 = 100, num2 = 100, product = num1 * num2;
-    while (product != reverseNum(product))
-    {
+    int num1 = 100, num2 = 100, product = num1 * num2, currentLargesProduct = 0;
 
+    // check product of nums while nums are less than 4 digits
+    while (numDigits(num1) < 4 && numDigits(num2) < 4)
+    {   
+        if ((product > currentLargesProduct) && (currentLargesProduct == reverseNum(currentLargesProduct)))
+        {
+            currentLargesProduct = product;
+            printf("%d\n", currentLargesProduct);
+        }
+        num1++;
+        num2++;
     }
 }
