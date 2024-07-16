@@ -35,33 +35,21 @@ int reverseNum(int num)
     return reverse;
 }
 
-int numDigits(int n)
-{
-    int count = 0;
-    
-    // iterate at least once, then until n becomes 0
-    // remove last digit from n in each iteration
-    // increase count by 1 each iteration
-
-    do {
-        n /= 10;
-        ++count;
-    } while (n != 0);
-
-    return count;
-}
-
 int main()
 {
-    int num1 = 100, num2 = 100, product = num1 * num2, currentLargesProduct = 0;
+    int num1 = 100, num2 = 100, product = 0, currentLargesProduct = 0;
 
     // check product of nums while nums are less than 4 digits
-    while (numDigits(num1) < 4 && numDigits(num2) < 4)
+    while (num1 < 999 && num2 < 999)
     {   
-        if ((product > currentLargesProduct) && (currentLargesProduct == reverseNum(currentLargesProduct)))
+        product = num1 * num2;
+        if (product > currentLargesProduct)
         {
             currentLargesProduct = product;
-            printf("%d\n", currentLargesProduct);
+            if (currentLargesProduct == reverseNum(currentLargesProduct))
+            {
+                printf("%d\n", currentLargesProduct);
+            }
         }
         num1++;
         num2++;
