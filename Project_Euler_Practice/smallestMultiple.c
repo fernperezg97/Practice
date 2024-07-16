@@ -33,7 +33,7 @@ int main(void)
 {
     int n = 2520;
     while (true) {
-        if (isDivisibleByAll(n)) {
+        if (isDivisibleBy(n)) {
             printf("The smallest number divisible by all numbers from 1 to 20 is %d\n", n);
             break;
         }
