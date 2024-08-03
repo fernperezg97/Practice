@@ -1,0 +1,15 @@
+/Users/fernanda/practice/learning_c_sharp/MyNewProject/bin/Debug/net8.0/MyNewProject
+/Users/fernanda/practice/learning_c_sharp/MyNewProject/bin/Debug/net8.0/MyNewProject.deps.json
+/Users/fernanda/practice/learning_c_sharp/MyNewProject/bin/Debug/net8.0/MyNewProject.runtimeconfig.json
+/Users/fernanda/practice/learning_c_sharp/MyNewProject/bin/Debug/net8.0/MyNewProject.dll
+/Users/fernanda/practice/learning_c_sharp/MyNewProject/bin/Debug/net8.0/MyNewProject.pdb
+/Users/fernanda/practice/learning_c_sharp/MyNewProject/obj/Debug/net8.0/MyNewProject.GeneratedMSBuildEditorConfig.editorconfig
+/Users/fernanda/practice/learning_c_sharp/MyNewProject/obj/Debug/net8.0/MyNewProject.AssemblyInfoInputs.cache
+/Users/fernanda/practice/learning_c_sharp/MyNewProject/obj/Debug/net8.0/MyNewProject.AssemblyInfo.cs
+/Users/fernanda/practice/learning_c_sharp/MyNewProject/obj/Debug/net8.0/MyNewProject.csproj.CoreCompileInputs.cache
+/Users/fernanda/practice/learning_c_sharp/MyNewProject/obj/Debug/net8.0/MyNewProject.sourcelink.json
+/Users/fernanda/practice/learning_c_sharp/MyNewProject/obj/Debug/net8.0/MyNewProject.dll
+/Users/fernanda/practice/learning_c_sharp/MyNewProject/obj/Debug/net8.0/refint/MyNewProject.dll
+/Users/fernanda/practice/learning_c_sharp/MyNewProject/obj/Debug/net8.0/MyNewProject.pdb
+/Users/fernanda/practice/learning_c_sharp/MyNewProject/obj/Debug/net8.0/MyNewProject.genruntimeconfig.cache
+/Users/fernanda/practice/learning_c_sharp/MyNewProject/obj/Debug/net8.0/ref/MyNewProject.dll
